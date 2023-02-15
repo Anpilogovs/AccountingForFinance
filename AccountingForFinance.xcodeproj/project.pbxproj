@@ -15,6 +15,7 @@
 		F3A05B35299AF7D700965E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A05B34299AF7D700965E2C /* Assets.xcassets */; };
 		F3A05B38299AF7D700965E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A05B36299AF7D700965E2C /* LaunchScreen.storyboard */; };
 		F3C39AEB299CF80200A3BA85 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C39AEA299CF80200A3BA85 /* CustomTableViewCell.swift */; };
+		F3DED325299D40DB00D34DA2 /* SpendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DED324299D40DB00D34DA2 /* SpendingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F3A05B37299AF7D700965E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A05B39299AF7D700965E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C39AEA299CF80200A3BA85 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F3DED324299D40DB00D34DA2 /* SpendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				A7D6E6B33C94365EBC0FEF7F /* Pods-AccountingForFinance.debug.xcconfig */,
 				14CFC9DDCFEAF336A59FB20A /* Pods-AccountingForFinance.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +87,7 @@
 				F3A05B2B299AF7D500965E2C /* AppDelegate.swift */,
 				F3A05B2D299AF7D500965E2C /* SceneDelegate.swift */,
 				F3A05B2F299AF7D500965E2C /* MainViewController.swift */,
+				F3DED324299D40DB00D34DA2 /* SpendingModel.swift */,
 				F3C39AEA299CF80200A3BA85 /* CustomTableViewCell.swift */,
 				F3A05B31299AF7D500965E2C /* Main.storyboard */,
 				F3A05B34299AF7D700965E2C /* Assets.xcassets */,
@@ -213,6 +215,7 @@
 				F3A05B30299AF7D500965E2C /* MainViewController.swift in Sources */,
 				F3A05B2C299AF7D500965E2C /* AppDelegate.swift in Sources */,
 				F3C39AEB299CF80200A3BA85 /* CustomTableViewCell.swift in Sources */,
+				F3DED325299D40DB00D34DA2 /* SpendingModel.swift in Sources */,
 				F3A05B2E299AF7D500965E2C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
