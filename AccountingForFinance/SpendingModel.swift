@@ -14,4 +14,11 @@ class Spending: Object {
     @Persisted var date = Date()
 }
 
+class Limit: Object {
+    
+    @Persisted var limitSum = ""
+    @Persisted var limitDate = Date()
+    @Persisted var limitLastDay = Date()
+}
+
 
