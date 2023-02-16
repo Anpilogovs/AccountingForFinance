@@ -12,6 +12,7 @@ class Spending: Object {
     @Persisted var category = ""
     @Persisted var cost = 1
     @Persisted var date = Date()
+    
 }
 
 class Limit: Object {
